@@ -10,7 +10,7 @@ header {
 
 header div p {
   @include mixin.heading3;
-  color: variables.$pure-white;
+  color: variables.$pure-lilas;
 
   margin: 0;
 }
@@ -24,9 +24,9 @@ header div {
 }
 
 .active {
-  background-color: variables.$pure-white;
+  background-color: variables.$primary-color;
 
   p {
-   color: variables.$secondary-color;
+   color: variables.$pure-red;
   }
 }

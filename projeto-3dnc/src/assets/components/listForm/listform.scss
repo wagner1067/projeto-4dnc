@@ -14,7 +14,7 @@
  input[type="text"]{
   background: none;
   border: none;
-  color: variables.$pure-white;
+  color: variables.$pure-red;
   @include mixin.bodyI;
   outline: none;
   width: 100%;
@@ -26,7 +26,7 @@
   outline: none;
 
   &:hover svg{
-   color: variables.$primary-color;
+   color: variables.$pure-lilas;
   }
 
  }
